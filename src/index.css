@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#canvas {
+  border-radius: 9px;
+  margin-left: 20px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px; 
+  background: rgb(187, 227, 247);
+}
+
+.colorPicker {
+  background-color: rgb(187, 227, 247);
+  border: none;
+  border-radius: 9px;
+}
+.container {
+  display: flex;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px; 
+  background: rgb(187, 227, 247);
+}
